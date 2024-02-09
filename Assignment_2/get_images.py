@@ -4,19 +4,11 @@ import re
 import os
 
 # Insert Pexels API Key here
-PEXELS_API_KEY = "Insert_API_Key"
+PEXELS_API_KEY = ""
 api = API(PEXELS_API_KEY)
 
 # Popular cat breeds
-breeds = [
-    "Bengel Cat",
-    "Siberian Cat",
-    "Persian Cat",
-    "Burmese Cat",
-    "Oriental Cat",
-    "Himalayan Cat",
-    "British Shorthair Cat",
-]
+breeds = ["Ragdoll Cat", "Siberian Cat", "Persian Cat"]
 
 for breed in breeds:
     api.search(breed, results_per_page=100)
@@ -29,7 +21,7 @@ for breed in breeds:
         pic = re.search("([^/]+)/?$", photo.original).group()
         # Saves photos
         req = Request(
-            url="https://images.pexels.com/photos/20001743/pexels-photo-20001743.jpeg",
+            url=photo.original,
             headers={"User-Agent": "Mozilla/5.0"},
         )
         webpage = urlopen(req).read()
