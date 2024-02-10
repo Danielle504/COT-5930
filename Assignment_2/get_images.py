@@ -8,7 +8,7 @@ PEXELS_API_KEY = ""
 api = API(PEXELS_API_KEY)
 
 # Popular cat breeds
-breeds = ["Sphynx Cat", "Tabby Cat", "Persian Cat"]
+breeds = ["Sphynx Cat", "Persian Cat"]
 
 for breed in breeds:
     api.search(breed, results_per_page=100)
