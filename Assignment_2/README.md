@@ -6,6 +6,6 @@ Python is included only for the gathering of images due to MatLab difficulties
 
 Danielle Garsten
 
-Candela
+Candela Sarrabayrouse
 
 Uwaise Ibna Islam
