@@ -6,4 +6,4 @@ AlexNet:
   Validation Accuracy: 83.33%
 
 Data Augmentation:
-  
+  Validation Accuracy: 66.67%
