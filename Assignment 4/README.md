@@ -6,9 +6,8 @@ Uwaise Ibna Islam
 
 The purpose of this assignment is to work with AlexNet, SqueezeNet, and Data Augmentation. Due to diffculties getting the squeezenet to work, unfortunately that portion could not be complete. We also tested with a dataset from Kaggle.
 
-AlexNet:
-  Validation Accuracy: 83.33%
-  It ranges from 66.67% to 91%
+Results for the sample dataset, and a large dataset(2000 images) has been implemented for the following network architectures:
 
-Data Augmentation:
-  Validation Accuracy: 66.67%
+1. AlexNet without Data Augmentation
+
+2. AlexNet with Data Augmentation
