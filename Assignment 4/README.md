@@ -4,6 +4,7 @@ The purpose of this assignment is to work with AlexNet, SqueezeNet, and Data Aug
 
 AlexNet:
   Validation Accuracy: 83.33%
+  It ranges from 66.67% to 91%
 
 Data Augmentation:
   Validation Accuracy: 66.67%
